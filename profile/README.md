@@ -43,56 +43,53 @@ Neko built the **first RWA oracle on the Stellar network**.
 It aggregates prices from multiple off-chain APIs and verifies them
 using **zero-knowledge proofs**, ensuring:
 
--   Multi-source price integrity\
--   No leaking of API keys or internal logic\
--   Trust-minimized price feeds\
+-   Multi-source price integrity
+-   No leaking of API keys or internal logic
+-   Trust-minimized price feeds
 -   Safe and verifiable collateral valuations
 
 ### 4. Full-Stack UX + API Layer
 
 Neko includes:
 
--   A working frontend for borrowing, lending, and portfolio management\
+-   A working frontend for borrowing, lending, and portfolio management
 -   A developing (next milestone) **public API** for external integrations
 
 ## Architecture (High-Level)
 
 -   Smart Contracts: Soroban on Stellar\
--   Oracle System: Multi-source aggregation + Noir/Barretenberg ZK
-    proofs\
--   Frontend: React + Stellar Wallet Kit (Stellar Scaffold)\
--   Backend/API: Node.js services\
+-   Oracle System: Noir/Barretenberg ZK proofs (sent on-chain)
+-   Frontend: React + Stellar Wallet Kit (Stellar Scaffold)
+-   Backend/API: Node.js services
 -   RWA Tokens: Stocks today, Bonds/Treasuries soon
 
 ## Current Features
 
--   Borrow USDC/XLM against tokenized stocks\
--   Lend liquidity and earn RWA-backed yield\
--   Live ZK-verified oracle pipeline\
--   Real-time portfolio dashboard\
--   Liquidation engine\
+-   Borrow USDC/XLM against tokenized stocks
+-   Lend liquidity and earn RWA-backed yield
+-   Live ZK-verified oracle pipeline
+-   Real-time portfolio dashboard
+-   Liquidation engine
 -   Frontend live
 
 ## Roadmap
 
 ### Q4 2025
 
--   Public API (REST + SDK)\
--   Additional RWA support\
--   ZK circuit optimizations (waiting for Protocol 25)\
+-   Public API (REST + SDK)
+-   Additional RWA support
+-   ZK circuit optimizations (waiting for Protocol 25)
 
 ### 2026
 
--   Institutional RWA onboarding\
--   Smart contract audits\
--   Cross-chain liquidity expansion\
--   Permissionless collateral listing\
--   Governance Phase I
+-   Institutional RWA onboarding
+-   Smart contract audits
+-   Cross-chain liquidity expansion
 
 ## Repositories
 
--   Neko-DApp\
--   Neko-Oracle-RWA\
+-   Neko-DApp
+-   Neko-Oracle-RWA
 
 ## License
 
