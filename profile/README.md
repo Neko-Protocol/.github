@@ -1,10 +1,11 @@
+<img width="2940" height="770" alt="banner" src="https://github.com/user-attachments/assets/b094f921-6242-4ecd-8034-cb4e9d0ce267" />
 
-![Neko Protocol Banner](../../assets/banner.png)
+---
 
 Neko Protocol is a DeFi lending and borrowing system that unlocks
-liquidity from real-world assets. Built on Stellar, Neko turns tokenized
-RWAs---starting with stocks and expanding to bonds, treasuries, and
-other financial instruments---into active, yield-generating collateral.
+liquidity from real-world assets. Neko turns tokenized
+RWAs, starting with stocks and expanding to bonds, treasuries, and
+other financial instruments, into active, yield-generating collateral.
 
 Neko's mission is simple: **Make illiquid real-world assets liquid,
 programmable, and usable across DeFi.**
@@ -52,14 +53,14 @@ using **zero-knowledge proofs**, ensuring:
 Neko includes:
 
 -   A working frontend for borrowing, lending, and portfolio management\
--   A developing **public API** for external integrations
+-   A developing (next milestone) **public API** for external integrations
 
 ## Architecture (High-Level)
 
 -   Smart Contracts: Soroban on Stellar\
 -   Oracle System: Multi-source aggregation + Noir/Barretenberg ZK
     proofs\
--   Frontend: React + Stellar Wallet Kit\
+-   Frontend: React + Stellar Wallet Kit (Stellar Scaffold)\
 -   Backend/API: Node.js services\
 -   RWA Tokens: Stocks today, Bonds/Treasuries soon
 
@@ -70,38 +71,29 @@ Neko includes:
 -   Live ZK-verified oracle pipeline\
 -   Real-time portfolio dashboard\
 -   Liquidation engine\
--   Multi-API aggregation\
 -   Frontend live
 
 ## Roadmap
 
 ### Q4 2025
 
--   Public API (REST + SDK)
--   Additional RWA support
--   Smart contract audits
--   ZK circuit optimizations
+-   Public API (REST + SDK)\
+-   Additional RWA support\
+-   ZK circuit optimizations (waiting for Protocol 25)\
 
 ### 2026
 
 -   Institutional RWA onboarding\
+-   Smart contract audits\
 -   Cross-chain liquidity expansion\
 -   Permissionless collateral listing\
 -   Governance Phase I
 
 ## Repositories
 
--   protocol-core\
--   oracle-zk\
--   frontend\
--   api-server\
--   docs
-
-## Contributing
-
-Contributions from developers, auditors, cryptographers, and RWA
-researchers are welcome.
+-   Neko-DApp\
+-   Neko-Oracle-RWA\
 
 ## License
 
-MIT License unless otherwise stated.
+We work by the MIT License.
