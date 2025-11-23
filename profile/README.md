@@ -36,17 +36,14 @@ Liquidity providers lend assets to the protocol and earn yield from
 interest payments. All positions are over-collateralized and backed by
 real-world assets.
 
-### 3. Zero-Knowledge-Verified Price Oracle
+### 3. Price Oracle
 
 Neko built the **first RWA oracle on the Stellar network**.
 
-It aggregates prices from multiple off-chain APIs and verifies them
-using **zero-knowledge proofs**, ensuring:
+It aggregates prices from multiple off-chain APIsM ensuring:
 
 -   Multi-source price integrity
 -   No leaking of API keys or internal logic
--   Trust-minimized price feeds
--   Safe and verifiable collateral valuations
 
 ### 4. Full-Stack UX + API Layer
 
@@ -57,8 +54,7 @@ Neko includes:
 
 ## Architecture (High-Level)
 
--   Smart Contracts: Soroban on Stellar\
--   Oracle System: Noir/Barretenberg ZK proofs (sent on-chain)
+-   Smart Contracts: Soroban on Stellar
 -   Frontend: React + Stellar Wallet Kit (Stellar Scaffold)
 -   Backend/API: Node.js services
 -   RWA Tokens: Stocks today, Bonds/Treasuries soon
@@ -67,7 +63,6 @@ Neko includes:
 
 -   Borrow USDC/XLM against tokenized stocks
 -   Lend liquidity and earn RWA-backed yield
--   Live ZK-verified oracle pipeline
 -   Real-time portfolio dashboard
 -   Liquidation engine
 -   Frontend live
@@ -78,7 +73,7 @@ Neko includes:
 
 -   Public API (REST + SDK)
 -   Additional RWA support
--   ZK circuit optimizations (waiting for Protocol 25)
+-   ZK circuit implementations (waiting for Protocol 25)
 
 ### 2026
 
