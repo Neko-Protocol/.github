@@ -90,6 +90,7 @@ Neko includes:
 
 -   Neko-DApp
 -   Neko-Oracle-RWA
+-   Neko-Landing
 
 ## License
 
