@@ -2,13 +2,16 @@
 
 ---
 
-Neko Protocol is a DeFi lending and borrowing system that unlocks
+Neko Protocol is a platform that unlocks
 liquidity from real-world assets. Neko turns tokenized
 RWAs, starting with stocks and expanding to bonds, treasuries, and
 other financial instruments, into active, yield-generating collateral.
 
+We do this by having a DeFi lending and borrowing system, liquidity layer
+market and perpetual futures for RWAs.
+
 Neko's mission is simple: **Make illiquid real-world assets liquid,
-programmable, and usable across DeFi.**
+programmable, and usable.**
 
 ## Why Neko Exists
 
@@ -36,20 +39,16 @@ Liquidity providers lend assets to the protocol and earn yield from
 interest payments. All positions are over-collateralized and backed by
 real-world assets.
 
-### 3. Price Oracle
+### 3. Perpetual futures
 
-Neko built the **first RWA oracle on the Stellar network**.
-
-It aggregates prices from multiple off-chain APIsM ensuring:
-
--   Multi-source price integrity
--   No leaking of API keys or internal logic
+Users can trade perpetual contracts based on the real-world assets available
+on the platform.
 
 ### 4. Full-Stack UX + API Layer
 
 Neko includes:
 
--   A working frontend for borrowing, lending, and portfolio management
+-   A working frontend for borrowing, lending, perps and portfolio management
 -   A developing (next milestone) **public API** for external integrations
 
 ## Architecture (High-Level)
@@ -69,31 +68,15 @@ Neko includes:
 
 ## Roadmap
 
-### Q4 2025
-
--   Public API (REST + SDK)
--   Additional RWA support
--   ZK circuit implementations (waiting for Protocol 25)
-
 ### 2026
 
 -   Institutional RWA onboarding
 -   Smart contract audits
 -   Cross-chain liquidity expansion
 
-
-## Documents
-- [Whitepaper](https://docs.google.com/document/d/1a0oLaen3oTCVS3Ir9NitemQVNZ5T42euSKetHcweOGM/edit?usp=sharing)
-- [Day 1 - Project Initialization](https://www.notion.so/Day-1-Project-Initialization-2b007cea0302803082baef18395afb83)
-- [Day 2 - Technical Foundation](https://www.notion.so/Day-2-Technical-Foundation-from-Neko-Protocol-2b007cea03028046ab83eef7dd5c8167)
-- [Day 3 - Functional Progress](https://www.notion.so/Day-3-Functional-Progress-for-Neko-Protocol-2b007cea0302803292e3d6737f19ada2?source=copy_link)
-- [Empathy Map](https://www.notion.so/Empathy-Map-Neko-Protocol-2b107cea03028073a062dce30998c2bb)
-
-
 ## Repositories
 
 -   Neko-DApp
--   Neko-Oracle-RWA
 -   Neko-Landing
 
 ## License
