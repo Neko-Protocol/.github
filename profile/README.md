@@ -1,84 +1,76 @@
-<img width="2940" height="770" alt="banner" src="https://github.com/user-attachments/assets/b094f921-6242-4ecd-8034-cb4e9d0ce267" />
+<img width="6336" height="1584" alt="LINKEDIN BANNER (1)" src="https://github.com/user-attachments/assets/e335dbb4-4e0f-4461-a80b-3c949d0acfcc" />
 
 ---
 
-Neko Protocol is a platform that unlocks
-liquidity from real-world assets. Neko turns tokenized
-RWAs, starting with stocks and expanding to bonds, treasuries, and
-other financial instruments, into active, yield-generating collateral.
+**Neko** is a platform that aggregates and unifies access to Real-World Assets (RWAs) on the Stellar network. It allows users to discover tokenized assets, swap them, access their liquidity, and put them to work through lending, borrowing, and automated vaults - all from a single integrated interface.
 
-We do this by having a DeFi lending and borrowing system, liquidity layer
-market and perpetual futures for RWAs.
+Neko's mission: **Make RWAs on Stellar accessible, liquid, and productive for every individual user.**
 
-Neko's mission is simple: **Make illiquid real-world assets liquid,
-programmable, and usable.**
+---
 
 ## Why Neko Exists
 
-Most RWAs sit trapped inside traditional systems. They may rise or fall
-in price, but they don't generate yield and they can't be used as
-collateral on-chain. Liquidity is limited, transferability is slow, and
-composability is basically nonexistent.
+Over **$1.3B in tokenized RWAs** already live on Stellar - instruments like Stablebonds (Etherfuse), USDY, USTRY, CETES, and more. Yet liquidity is scattered across isolated anchors and markets, and there's no unified layer for individual users to interact with these assets efficiently.
 
-Neko fixes that by becoming **the liquidity layer for RWAs**. Users can
-lock their tokenized assets, borrow liquid assets like USDC or XLM, and
-keep exposure to the underlying asset. Liquidity providers earn yield
-backed by real-world collateral instead of pure crypto volatility.
+---
+
+## What Neko Does
+
+### 🔄 RWA Discovery & Swaps
+Users connect their wallet, explore available RWAs, and swap between them. Neko integrates Soroswap for routing and liquidity, enabling native settlement on Stellar.
+
+### 💰 Lending & Borrowing
+Neko showcases multiple liquidity pools from different protocols (and Neko's owns), so that users can lend/borrow freely and easily.
+
+---
 
 ## How It Works
 
-### 1. RWA-Backed Borrowing
+1. Connect your Stellar wallet
+2. Select an RWA (e.g. Stablebonds, USDY, CETES)
+3. Swap, supply as collateral, borrow against it and more
+4. Everything settles natively on Stellar
 
-Users deposit tokenized RWAs as collateral. In return, they can borrow
-assets such as USDC or XLM. Collateral ratios and liquidation rules
-ensure system solvency.
+---
 
-### 2. On-Chain Lending
+## Architecture
 
-Liquidity providers lend assets to the protocol and earn yield from
-interest payments. All positions are over-collateralized and backed by
-real-world assets.
+| Layer | Stack |
+|---|---|
+| Smart Contracts | Soroban |
+| Frontend | Next.js + Turborepo|
 
-### 3. Perpetual futures
+**External integrations:**
+- [Soroswap](https://soroswap.finance) — Swap routing & liquidity
+- [Reflector](https://reflector.network) — Oracle for RWA price feeds
+- [Blend Capital](https://blend.capital) — Liquidity pools
+- [Stellar Wallet Kit](https://stellarwalletkit.com) — Wallet connection
+- [Alfred Pay](https://alfredpay.io) — On/off-ramp anchor for LATAM
 
-Users can trade perpetual contracts based on the real-world assets available
-on the platform.
+**Owned infrastructure:**
+- **Neko Pools** — Native liquidity pools for RWAs
+- **Neko Oracle** — Oracle for supported RWA price feeds
 
-### 4. Full-Stack UX + API Layer
+---
 
-Neko includes:
+## Roadmap (2026)
 
--   A working frontend for borrowing, lending, perps and portfolio management
--   A developing (next milestone) **public API** for external integrations
+- Mainnet launch with full lending/borrow/swap/vault stack
+- Expanded RWA support (more possible RWAs on Stellar)
+- LATAM anchor integrations for fiat on/off-ramp
+- Smart contract audits
+- Institutional RWA onboarding
+- Public API for external integrations
 
-## Architecture (High-Level)
+---
 
--   Smart Contracts: Soroban on Stellar
--   Frontend: React + Stellar Wallet Kit (Stellar Scaffold)
--   Backend/API: Node.js services
--   RWA Tokens: Stocks today, Bonds/Treasuries soon
+**Additional links:**
+- 🌐 [nekoprotocol.xyz](https://nekoprotocol.xyz)
+- 🐦 [x.com/NekoProto](https://x.com/NekoProto)
+- 📖 [deepwiki.com/Neko-Protocol](https://deepwiki.com/Neko-Protocol)
+- 🎥 [Demo](https://www.youtube.com/watch?v=JG8W54RLVaY) | [Pitch](https://www.youtube.com/watch?v=ITvAhQMKQIo)
 
-## Current Features
-
--   Borrow USDC/XLM against tokenized stocks
--   Lend liquidity and earn RWA-backed yield
--   Real-time portfolio dashboard
--   Liquidation engine
--   Frontend live
-
-## Roadmap
-
-### 2026
-
--   Institutional RWA onboarding
--   Smart contract audits
--   Cross-chain liquidity expansion
-
-## Repositories
-
--   Neko-DApp
--   Neko-Landing
+---
 
 ## License
-
-We work by the MIT License.
+MIT
