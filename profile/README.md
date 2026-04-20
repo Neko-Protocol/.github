@@ -1,4 +1,4 @@
-<img width="6336" height="1584" alt="LINKEDIN BANNER (1)" src="https://github.com/user-attachments/assets/e335dbb4-4e0f-4461-a80b-3c949d0acfcc" />
+<img alt="LINKEDIN BANNER (1)" src="https://github.com/user-attachments/assets/e335dbb4-4e0f-4461-a80b-3c949d0acfcc" />
 
 ---
 
